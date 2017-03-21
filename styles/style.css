@@ -1,0 +1,180 @@
+body
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size:14px;
+	background-color:lightskyblue;
+	padding:0;
+	margin:0;
+}
+
+#unihouse{
+	width: 900px;
+	height: 200px;
+}
+
+.boxing{
+	border: 2px groove (internal value);
+}
+
+#studentpic{
+	width: 710px;
+	height: 200px;
+}
+
+#logo2{
+	border-style: solid;;
+	border-color: orange;
+}
+
+.header
+{
+	width:100%;
+	background-color:#1B1B1B;
+	border-bottom:solid 4px #AAAAAA;
+}
+
+.formcontent {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.formsubmit{
+	  width: 50%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+		margin-left: 225px;
+		border-radius: 25px;
+}
+
+#imago{
+	float: left;
+	margin-right:5px;
+}
+
+
+.logo
+{
+	font-size:20px;
+	padding:10px 10px 10px 40px;
+	color:#fff;
+}
+
+.formhead{
+	padding: 20px 20px 20px 20px;
+	background-color: orange;
+}
+
+#headerapplication{
+	margin-left: 300px;
+	background-color: green;
+	border-radius: 25px;
+	padding-left:20px;
+	padding-right: 20px;
+}
+
+
+
+.menuWrapper
+{
+	margin:0 auto;
+	width:950px;
+	border-left: 1px solid rgba(2, 2, 2, 0.28);
+    border-radius: 10px 10px 0 0;
+    border-right: 1px solid rgba(2, 2, 2, 0.28);
+    border-top: 1px solid rgba(250, 250, 250, 0.27);
+    box-shadow: 0 0 5px rgba(1, 1, 1, 0.7);
+	margin-top:10px;
+}
+
+.menu
+{
+	padding:10px;
+}
+
+.menuItem
+{
+	float:left;
+	padding-right:10px;
+	color:#fff;
+}
+
+.menuItem a
+{
+	border: 1px solid transparent;
+	font-weight:bold;
+    color: black;
+    display: block;
+    padding: 6px 10px;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.76);
+}
+
+.selected a
+{
+	text-decoration:underline;
+	background-color: orange;
+}
+.last a
+{
+	border-right:none;
+}
+
+.contentWrapper
+{
+	background-color: #FFFFFF;
+    border-radius: 0 0 10px 10px;
+    border-top: 1px solid #333333;
+    box-shadow: -3px 0 5px -3px rgba(1, 1, 1, 0.87), 3px 0 5px -3px rgba(1, 1, 1, 0.87);
+	min-height:600px;
+	width:950px;
+	margin:0 auto;
+}
+
+.content
+{
+	padding: 20px;
+	position:relative;
+
+}
+.footerWrapper
+{
+	width:100%;
+}
+
+.footer
+{
+	min-height:40px;
+	color:#fff;
+	padding:15px;
+	text-align:right;
+}
+
+.clear
+{
+	clear:both;
+}
+
+.jQueryOrange
+{
+	color:#faa523;
+}
+
+.fieldWrap
+{
+	margin:10px 0 0 0;
+}
+
+#menu
+{
+width:200px;
+}

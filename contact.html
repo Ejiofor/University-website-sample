@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Learn jQuery UI" />
+		<meta name="keywords" content="HTML,CSS,jQuery UI" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+		<link rel="stylesheet" href="styles/jquery-ui.min.css" />
+		<link rel="stylesheet" type="text/css" href="styles/bootstrap.min.css">
+		<link rel="stylesheet" href="styles/style.css" />
+		<script src ="scripts/jquery.js"></script>
+		<script src ="scripts/jquery-ui.min.js"></script>
+		<script src="scripts/bootstrap.min.js"></script>
+
+		<script>
+	 	 $(document).tooltip();
+	 </script>
+
+	 <script>
+		$(function(){
+			$("#datepicker").datepicker();
+		});
+
+		$( function() {
+       $( ".button" ).button(
+				 {
+					 icons: {primary: 'ui-icon-heart' },
+					 text=true
+				 }
+			 ).click( function( event ){
+      event.preventDefault()
+		    });
+  } );
+	</script>
+
+
+	</head>
+	<body>
+		<div class="headerWrapper">
+			<div class="header">
+				<div class="logo"> <span id = "logo2"> UASA </span>&emsp;University Applied Sciences Aba <span class="jQueryOrange">designing the future</span></div>
+			</div>
+		</div>
+		<div class="menuWrapper">
+			<div class="menu">
+				<div class="menuItem">
+					<a href="index.html">Home</a>
+				</div>
+				<div class="menuItem">
+					<a href="about.html">About</a>
+				</div>
+				<div class="menuItem">
+					<a href="Faculty.html">Faculties</a>
+				</div>
+				<div class="menuItem ">
+					<a href="FAQ.html">FAQ</a>
+				</div>
+				<div class="menuItem last selected">
+					<a href="contact.html">Contact</a>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<div class="contentWrapper">
+			<div class="content">
+				<form>
+					<h1>Contact Me:</h1>
+					<!-- For Showing Error Alert
+					<div class ="ui-state-error ui-corner-all">
+             <p ><span class="ui-icon ui-icon-alert myAlerts"></span><strong>Alert:</strong>You have contacted too many times</p>
+					</div>
+				-->
+					<div class="fieldWrap">
+						Your first name**: <input type="text" id="txtFirstName" name="txtFirstName" />
+					</div>
+					<div class="fieldWrap">
+						Your middle name*: <input type="text" id="txtMiddleName" name="txtMiddleName" />
+					</div>
+					<div class="fieldWrap">
+						Your last name**: <input type="text" id="txtLastName" name="txtLastName" />
+					</div>
+					<div class="fieldWrap">
+						What do you want?
+						<div>
+							<textarea cols="20" rows="5" id="txtDate" name="txtDescription"></textarea>
+						</div>
+					</div>
+					<div class="fieldWrap">
+						What day should I get back to you by? <input type="text" id="datepicker" name="txtDescription" />
+					</div>
+					<div class="fieldWrap">
+						<input type="submit" id="btnSubmit" value="Submit!"/>
+						<input type="submit" id="btnSubmit" value="preview and Submit " class="button"  />
+						<button>Love <span class="ui-icon ui-icon-heart"></span></button>
+					</div>
+				</form>
+				<br/>
+				<br/>
+				<br/>
+				<p title="Not a must  field">*</p>
+				<p title="Mandatory field">**</p>
+			</div>
+		</div>
+		<div class="footerWrapper">
+			<div class="footer">
+			&copy; 2017 Joachim Ejiofor Nwofor
+			</div>
+		</div>
+	</body>
+</html>

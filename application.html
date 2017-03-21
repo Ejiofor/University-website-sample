@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Learn jQuery UI" />
+		<meta name="keywords" content="HTML,CSS,jQuery UI" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+		<link rel="stylesheet" href="styles/jquery-ui.min.css" />
+		<link rel="stylesheet" type="text/css" href="styles/bootstrap.min.css">
+		<link rel="stylesheet" href="styles/style.css" />
+		<script src ="scripts/jquery.js"></script>
+		<script src ="scripts/jquery-ui.min.js"></script>
+		<script src="scripts/bootstrap.min.js"></script>
+
+		<script>
+   $( function() {
+     $( "#datepicker" ).datepicker();
+   } );
+   </script>
+
+	</head>
+
+	<body>
+		<div class="headerWrapper">
+			<div class="header">
+				<div class="logo"><span id = "logo2">UASA </span>&emsp;University Applied Sciences Aba <span class="jQueryOrange">designing the future</span></div>
+			</div>
+
+
+		<div class ="row">
+			    <div  id ="unihouse" class ="col-sm-8 " >
+
+					</div>
+					<div  id ="studentpic" class ="col-sm-4 ">
+
+				 </div>
+		</div>
+
+		<div class="menuWrapper formhead">
+		  <h2>Admission application Form </h2>
+    </div>
+
+
+		<div class="contentWrapper ">
+			<div class="content">
+				 <form action="#">
+					<h3><u>Person Information:</u></h3>
+						 <label for="fname">First Name*</label>
+             <input type="lastn" id="firstn" name="Firstname" placeholder="first name.." class ="formcontent">
+
+             <label for="lastn">Last Name*</label>
+             <input type="text" id="lastn" name="Lastname" placeholder=" last name.." class ="formcontent">
+
+             <label for="sexlabel">Sex*</label>
+						 <div class="formcontent">
+               <label for="radio-1">Male</label>
+               <input type="radio" name="radio-1" id="radio-1">&emsp;&emsp;
+               <label for="radio-2">Female</label>
+               <input type="radio" name="radio-1" id="radio-2">&emsp;&emsp;
+             </div>
+
+						 <label for="lastn">Date of Birth*</label>
+             <input type="text" id = "datepicker" name="birthdate"  class ="formcontent">
+
+						 <label for="adr">Address*</label>
+             <input type="text" id="adr" name="Lastname" placeholder=" Address and Number" class ="formcontent">
+
+						 <label for="lastn">Mobile Phone number*</label>
+						 <input type="text" id="phonenr" name="phonenumber" class ="formcontent">
+
+						 <label for="corigin">Country of Origin*</label>
+             <input type="text" id="corigin" name="country" placeholder=" country.." class ="formcontent">
+
+						 <h3><u>Education Background:</u></h3>
+						 <label for="lastn">High School Abitur*</label>
+						 <input type="text" id="abitur" name="Lastname" placeholder=" high school abitur.." class ="formcontent">
+						 <input type="file" name="datafile" size="40">
+
+						  <h3><u>Intended Study Program:</u></h3>
+							<label>Course Study*</label><br>
+							<select>
+								    <option value="sy"></option>
+                    <option value="cs">Computer Science</option>
+                    <option value="ee">Electronic Enigneering</option>
+                    <option value="mt">Mathematics</option>
+                    <option value="bc">Bio-Chemistry</option>
+              </select><br><br>
+
+							<label>Degree*</label><br>
+							<select>
+								    <option value="sy"></option>
+                    <option value="cs">Bachelor</option>
+                    <option value="ee">Masters</option>
+                    <option value="mt">PhD</option>
+              </select><br><br>
+
+							<input type="submit" value="Submit" class="formsubmit">
+				</form>
+
+			</div>
+		</div>
+
+
+		<div class="footerWrapper">
+			<div class="footer">
+			&copy; 2017 Joachim Ejiofor Nwofor
+			</div>
+		</div>
+		   <script>
+		      $(document).ready(function(){
+						$("h1").draggable();
+					});
+			 </script>
+	</body>
+</html>
